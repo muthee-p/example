@@ -1,0 +1,90 @@
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+	min-height: 100vh;
+}
+		.body{
+			 max-width: 1200px;
+  			width: 100%;
+			display: flex;
+			flex-direction: column;
+		}
+		.intro, .download-container{
+			display: flex;
+			justify-content: space-between;
+			padding: 4px;
+
+		}
+		.card {
+  			
+ 			 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  			
+			}
+		
+		.image-container{
+			width: 70%;
+			height: 70%;
+			background-color: red;
+			/*display: flex;
+  			align-items: center;
+  			justify-content: center;*/
+		}
+		.image-container img {
+  			position: relative;
+  			left: -120px; 
+  			top: -10px;
+  			transform: scale(0.8); 
+		}
+		.buy, .rent{
+			padding: .5rem;
+			border-radius: 8px;
+			width: 8rem;
+			margin-top: 1rem;
+		}.buy{
+			border: none;
+			background-color: orange;
+		}
+		.rent{
+			background: none;
+			border: 1px solid orange;
+		}
+		.buttons{
+			display: flex;
+			justify-content: space-between;
+		}
+
+
+.download-section{
+	background-color: lightyellow;
+	height: 15rem;
+	margin-top: 5rem;
+}
+.download-container{
+	position: relative;
+	left: 25%;
+	max-width: 800px;
+  	width: 100%;
+}
+.download-details{
+width: 50%;
+}
+
+.store-images{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.appstore, .playstore  {
+	width: 60%;
+}
+.appstore img, .playstore img {
+	width: 100%;
+}
+
+.phone img{
+	position: relative;
+	z-index: 10;
+	top: -120px;
+}
